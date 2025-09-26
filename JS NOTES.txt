@@ -1,0 +1,325 @@
+JAVASCRIPT: The programming language of the Web
+
+1.1 JavaScript Syntax
+
+Syntax Rules
+Syntax are the rules how programs must be constructed:
+
+// How to Declare variables:
+let x = 5;
+let y = 6;
+
+// How to Compute values:
+let z = x + y;
+
+// I am a Comment. I do Nothing
+
+
+1.2 JavaScript Statements
+A computer program is a list of "instructions" to be "executed" by a computer.
+
+These programming instructions are called statements.
+
+Most JavaScript programs contain many statements.
+
+The statements are executed, one by one, in the same order as they are written.
+
+
+1.3 JavaScript Variables
+Variables = Data Containers
+JavaScript variables are containers for data.
+
+JavaScript variables can be declared in 4 ways:
+
+Variable Keywords: let, const, var
+Modern JavaScript
+Using let
+Using const
+Older JavaScript
+Using var (Not Recommended)
+Automatically (Not Recommended)
+
+
+let aNumber = 2;
+var x = 2;
+const x = 2;
+let myName = "Emmanuel";
+let shoeSize = 44;
+let secondShoeSize = 43;
+
+Global variables
+let & const are scoped variables
+
+let myName = "Ayo";
+myName = "Julius";
+const myLastName = "Ojo";
+myLastName = "Ajayi";
+
+camelCase
+PascalCase
+snake_case
+
+
+
+
+1.4 JavaScript Operators
+Operators are for Mathematical and Logical Computations
+The Assignment Operator = assigns values
+
+The Addition Operator + adds values
+
+The Multiplication Operator * multiplies values
+
+The Comparison Operator > compares values
+
+JS Operators Categories (4)
+The Assigment Operators e.g. "=, *=, +=, -="
+Augmented Assigment Operators 
+Arithmetic Operators e.g. "+, -, /, *, %"
+Comparison Operators e.g. ">, <, ==, ==="
+Ternary Operator e.g. "? :"
+
+Operand 
+let sum = 2 + 5;
+
+
+1.5 JavaScript Data Types
+String	A text of characters enclosed in quotes
+Number	A number representing a mathematical value
+Boolean	A data type representing true or false
+Undefined A primitive variable with no assigned value
+
+
+To be able to operate on variables, it is important to know something about the type.
+
+Without data types, a computer cannot safely solve this:
+
+let x = 16 + "Volvo";
+
+1.5.1 JavaScript Type Conversion
+Type Coercion
+
+Converting Strings to Numbers: Number()
+Converting Numbers to Strings: String()
+
+Type Checking: keyword typeof
+
+Aside:
+Escape Character
+
+
+
+Control Flow/Control Structure
+In programming, control flow refers to the order in which a program's 
+instructions are executed. It dictates the path the program takes, allowing 
+it to make decisions, repeat actions, and respond to different conditions. 
+Without control flow, a program would simply execute instructions in a 
+linear, top-to-bottom fashion.
+
+Types of Control Flow Statements
+Control flow statements are the building blocks that enable this dynamic 
+execution. The three main types are:
+
+1. Conditional Statements
+These statements allow a program to execute a block of code only if a 
+specified condition is true. This is essential for decision-making. The 
+most common types are if, else if, and else.
+
+if statement: Executes code if a condition is true.
+
+else if statement: Checks another condition if the previous if or else if 
+condition was false.
+
+else statement: Executes a block of code if all preceding conditions 
+are false.
+
+Example
+
+let age = 18;
+
+if (age >= 18) {
+  console.log("You can vote!"); 
+} else {
+  console.log("You can't vote yet.");
+}
+In this example, the program checks the value of age. The output will be 
+"You can vote!" because the condition age >= 18 is true.
+
+2. Loops (Iterative Statements)
+Loops allow a program to repeat a block of code multiple times until a 
+certain condition is met. This is crucial for tasks that involve repetition, 
+such as processing items in a list. Common loops include for, while, 
+and do...while.
+
+for loop: Repeats code a specific number of times. It's often used when you 
+know the exact number of iterations.
+
+while loop: Continues to execute a block of code as long as a specified 
+condition is true. The condition is checked before each iteration.
+
+do...while loop: Similar to a while loop, but the code block is executed at 
+least once before the condition is checked.
+
+Example in JavaScript:
+
+JavaScript
+
+for (let i = 0; i < 3; i++) {
+  console.log("Iteration number " + (i + 1));
+}
+This loop will print "Iteration number 1", "Iteration number 2", and
+ "Iteration number 3" to the console.
+
+3. Jumps (Branching Statements)
+Jumps allow a program to change the normal flow of execution. They can be 
+used to skip part of a loop or exit a function. The most common examples 
+are break and continue.
+
+break statement: Immediately exits the current loop.
+
+continue statement: Skips the current iteration of a loop and moves to
+ the next one.
+
+Example in JavaScript:
+
+JavaScript
+
+for (let i = 0; i < 5; i++) {
+  if (i === 2) {
+    continue; // Skips this iteration
+  }
+  console.log(i);
+}
+
+
+
+
+
+https://nodejs.org/en/download
+
+
+
+1.5.2 JavaScript Switch Statement
+Switch statements are useful when you need to compare a variable against many 
+values. They're cleaner than long if/else chains for specific scenarios.
+
+
+
+
+
+1.5.3 JavaScript Loops
+Loops allow you to repeat code multiple times. They're essential for processing 
+collections of data or performing repetitive tasks.
+ A. for...loop
+ B. while...loop
+ C. do...while...loop
+
+
+
+
+
+1.5.4 Reference Data Types
+ A. Arrays
+ B. Objects
+
+
+ A. Arrays
+Arrays are ordered collections of data. Think of them as numbered containers 
+where you can store multiple values. JavaScript arrays are very powerful and 
+come with many built-in methods for manipulation.
+
+
+Key characteristics of JavaScript arrays are:
+
+ 1. Elements: An array is a list of values, known as elements.
+
+ 2. Ordered: Array elements are ordered based on their index.
+
+ 3. Zero indexed: The first element is at index 0, the second at index 1, and so on.
+
+ 4. Dynamic size: Arrays can grow or shrink as elements are added or removed.
+
+ 5. Heterogeneous: Arrays can store elements of different data types (numbers, 
+    strings, objects and other arrays).
+
+
+
+
+ B. Objects
+  An Object is a variable that can hold many variables.
+  Objects are collections of key-value pairs, where each key (known as property 
+  names) has a value.
+
+ Objects can describe anything like houses, cars, people, animals, or any 
+  other subjects.
+
+
+
+
+1.6. JavaScript Functions
+
+  Functions are fundamental building blocks in all programming.
+
+  Functions enable better code organization, modularity, and efficiency.
+
+  Functions are reusable block of code designed to perform a particular task.
+
+  Functions execute when they are "called" or "invoked".
+
+1.6.1 JS Arrow Functions
+
+1.6.2 JS Function Hoisting
+ Hoisting is JavaScript's default behavior of moving declarations to the top of 
+ the current scope.
+
+ Hoisting applies to variable declarations and to function declarations.
+
+ Because of this, JavaScript functions can be called before they are declared.
+
+1.6.3 JS Methods
+  A method is a function definition stored as a property value.
+
+
+1.6.4 JS Self-invoking functions
+
+ Function expressions will execute automatically if the expression is
+ followed by ().
+
+ You cannot self-invoke a function declaration.
+
+ You have to add parentheses around the function to indicate that it is a 
+ function expression:
+
+
+1
+12
+123
+1234
+12345
+
+54321
+4321
+321
+21
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
