@@ -291,28 +291,97 @@ Key characteristics of JavaScript arrays are:
  function expression:
 
 
-1
-12
-123
-1234
-12345
+1.6.5 More on Strings, Arrays, and Objects
+ String property and methods: .length, trim(), toUpperCase()
+ String Literal: (Template Literal)
 
-54321
-4321
-321
-21
-1
+ Arrays property and methods: length, pop() & push(), shift() & unshift()
+			      sort() & reverse()
 
+		 iterations: forEach(), map(), filter()
 
+			forEach(): The forEach() method calls a function 
+			(a callback function) once for each array element.
 
+			map(): The map() method creates a new array by performing 
+			a function on each array element.
+			*2: The map() method does not change the original array.
 
-
-
-
-
-
+			filter(): The filter() method creates a new array with 
+			array elements that pass a test.
 
 
+1.7 JavaScript ES6+ (ECMAScript2015) (Destructuring, Spread/Rest Operators)
+ Destructuring in JavaScript is a powerful feature that enables the extraction of 
+ values from arrays or properties from objects into distinct variables. It 
+ provides a more concise and readable way to assign values compared to traditional 
+ methods.
+
+ A. Array Destructuring
+ B. Object Destructuring
+
+
+1.8 JavaScript Modules (export/import)
+ JavaScript modules allow you to break up your code into separate files.
+ This makes it easier to maintain a code-base.
+ Modules are imported from external files with the import statement.
+
+
+
+
+1.9 JS Higher Order Functions/Callbacks
+
+1.10 JS Promises
+// A Promise is an Object that links Producing code and Consuming code
+
+// ---> "Producing code" is code that can take some time
+// ---> "Consuming code" is code that must wait for the result
+
+
+1.11 JS Async/Await
+// "Async and Await make promises easier to write"
+
+// --> async makes a function return a Promise
+// --> await makes a function wait for a Promise
+
+
+1.12 JS DOM Manipulation & Events
+
+What is the DOM?
+The Document Object Model (DOM) is a tree-like representation of your HTML page. 
+JavaScript can access and modify this tree.
+Simply: the HTML DOM is a standard for how to get, change, add, or delete 
+HTML elements.
+
+
+
+1.13 JS Web APIs
+What is Web API?
+ *API stands for Application Programming Interface.
+
+ *A Web API is an application programming interface for the Web.
+
+ *A Browser API can extend the functionality of a web browser.
+
+ *A Server API can extend the functionality of a web server.
+
+ *API is a set of rules and protocols that allows different software 
+  systems to communicate, exchange data, and perform actions with each other.
+
+
+  WEB APIs
+  * Fetch 
+  * Geolocation
+  * Storage
+  * Workers
+  * History
+
+ * FETCH METHODS
+  - GET
+  - POST
+  - PUT
+  - DELETE
+ 
 
 
 
