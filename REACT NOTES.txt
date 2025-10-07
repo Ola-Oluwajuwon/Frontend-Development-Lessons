@@ -1,0 +1,52 @@
+REACT
+
+1.0 Core Concept: React is a JavaScript library for building user interfaces 
+using reusable components.
+
+1.1 Setting Up React Environment (Vite)
+# Create new React project
+npm create vite@latest my-react-app -- --template react
+npm create vite@latest put-project-name-here -- --template react
+npm create vite@latest ./ -- --template react
+
+# Install an Existing Project
+npm install
+
+1.2 Project Structure Overview
+my-react-app/
+├── src/
+│   ├── App.jsx       # Main component
+│   ├── main.jsx      # Entry point
+│   └── App.css       # Styles
+├── index.html        # HTML template
+└── package.json      # Dependencies
+
+1.3 JSX Syntax and Components
+What is JSX? JavaScript XML - lets you write HTML-like code in JavaScript.
+JSX Rules:
+Must return single parent element
+Use className instead of class
+Use {} to embed JavaScript expressions
+Self-closing tags need / (e.g., <img />)
+
+Components:
+Component names start with capital letter
+Components are reusable
+Can embed JavaScript expressions in {}
+
+
+1.4 Props, State Management, and Event Handling in React
+Props (Properties): Pass data from parent to child component (read-only)
+State: Internal to component, can be changed
+
+
+
+
+
+
+
+
+
+
+
+
